@@ -39,3 +39,23 @@
 #account .wide-line{
   height: 16px;
 }
+
+#home ion-content{
+  background-color: #f6efee;
+}
+#home .wide-line{
+  height: 2em;
+  color: #fdfdfe;
+}
+
+#home .row div{
+  text-align: center;
+}
+
+#home .row img{
+  width: 60%;
+}
+
+#home .row span{
+  font-size: 1.25em;
+}
