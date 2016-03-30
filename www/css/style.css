@@ -1,0 +1,41 @@
+/* Empty. Add your own CSS if you like */
+
+#account ion-content{
+  background-color: #ecedec;
+}
+
+#account div img{
+  width: 100%;
+}
+
+#account .portrait{
+  width: 28%;
+  top: 13%;
+  left: 36%;
+  position: absolute;
+  text-align: center;
+}
+
+#account .name{
+  font-size: 1.25em;
+  color: white;
+  margin: 0 auto;
+}
+
+#account .icon {
+  color: #cbcbcb;
+}
+
+#account div a img{
+  height: 20px;
+  width: auto;
+  vertical-align: middle
+}
+
+#account a.item{
+  padding: 11px;
+}
+
+#account .wide-line{
+  height: 16px;
+}

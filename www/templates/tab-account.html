@@ -1,0 +1,53 @@
+<ion-view view-title="我的" id="account">
+  <ion-nav-bar class="bar-assertive">
+    <div class="bar bar-header">
+      <h1 class="title">我的</h1>
+    </div>
+  </ion-nav-bar>
+
+  <ion-content>
+    <div>
+      <img src="img/account/mybg.png" alt="头像背景"/>
+
+      <div class="portrait">
+        <img src="img/account/portrait.png" alt="头像"/>
+        <span class="name">bin0001</span>
+      </div>
+    </div>
+    <!--我的管理列表-->
+    <div class="list">
+      <a class="item item-icon-right" ng-click="go('#')">
+        <img src="img/account/order.png"/>
+        &nbsp;我的订单
+        <i class="icon ion-ios-arrow-right i"></i>
+      </a>
+
+      <a class="item item-icon-right" ng-click="go('#')">
+        <img src="img/account/message.png"/>
+        &nbsp;我的消息
+        <i class="icon ion-ios-arrow-right i"></i>
+      </a>
+
+      <a class="item item-icon-right" ng-click="go('#')">
+        <img src="img/account/money.png"/>
+        &nbsp;我的返利
+        <i class="icon ion-ios-arrow-right i"></i>
+      </a>
+
+      <div class="wide-line"></div>
+
+      <a class="item item-icon-right" ng-click="go('#')">
+        <img src="img/account/lock.png"/>
+        &nbsp;密码修改
+        <i class="icon ion-ios-arrow-right i"></i>
+      </a>
+
+      <a class="item item-icon-right" ng-click="go('#')">
+        <img src="img/account/sign_out.png"/>
+        &nbsp;退出账户
+        <i class="icon ion-ios-arrow-right i"></i>
+      </a>
+    </div>
+
+  </ion-content>
+</ion-view>
