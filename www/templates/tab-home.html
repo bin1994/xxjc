@@ -1,10 +1,25 @@
-<ion-view view-title="主页">
+<ion-view view-title="主页" id="home">
   <ion-nav-bar class="bar-assertive">
     <div class="bar bar-header">
-        <h1 class="title">主页</h1>
-      </div>
+      <h1 class="title">主页</h1>
+    </div>
   </ion-nav-bar>
-  <ion-content class="padding">
+  <ion-content>
+      <!--首页轮播图片-->
+      <ion-slide-box>
+        <ion-slide>
+          <div class="box">
+            <img src="img/home/banner_1.png" width="100%" ui-sref="#"/>
+          </div>
+        </ion-slide>
+        <ion-slide>
+          <div class="box">
+            <img src="img/home/banner_2.png" width="100%" ui-sref="#"/>
+          </div>
+        </ion-slide>
+      </ion-slide-box>
+
+
 
 
   </ion-content>
