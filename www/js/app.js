@@ -5,7 +5,7 @@
 // the 2nd parameter is an array of 'requires'
 // 'starter.services' is found in services.js
 // 'starter.controllers' is found in controllers.js
-angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
+angular.module('starter', ['ionic', 'starter.controllers', 'starter.services','order'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
@@ -77,7 +77,27 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
         controller: 'AccountCtrl'
       }
     }
-  });
+  })
+
+    .state('order', {
+      url: '/order',
+      templateUrl: 'templates/order.html',
+      controller: 'OrderAddCtrl'
+    })
+
+    .state('login', {
+      url: '/login',
+      templateUrl: 'templates/login.html',
+    })
+
+    .state('rebate-rule', {
+      url: '/rebate-rule',
+      templateUrl: 'templates/rebate-rule.html',
+    })
+
+
+
+  ;
 
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/tab/home');
