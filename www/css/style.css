@@ -92,3 +92,7 @@
   background-color: #f6f1ee;
 }
 
+#my-order .weui_media_box.weui_media_appmsg{
+  top: 50px;
+}
+
