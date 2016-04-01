@@ -1,14 +1,15 @@
 /* Empty. Add your own CSS if you like */
 
-#account ion-content{
+/*个人中心*/
+#account ion-content {
   background-color: #ecedec;
 }
 
-#account div img{
+#account div img {
   width: 100%;
 }
 
-#account .portrait{
+#account .portrait {
   width: 28%;
   top: 13%;
   left: 36%;
@@ -16,7 +17,7 @@
   text-align: center;
 }
 
-#account .name{
+#account .name {
   font-size: 1.25em;
   color: white;
   margin: 0 auto;
@@ -26,36 +27,68 @@
   color: #cbcbcb;
 }
 
-#account div a img{
+#account div a img {
   height: 20px;
   width: auto;
   vertical-align: middle
 }
 
-#account a.item{
+#account a.item {
   padding: 11px;
 }
 
-#account .wide-line{
+#account .wide-line {
   height: 16px;
 }
 
-#home ion-content{
+/*主页*/
+#home ion-content {
   background-color: #f6efee;
 }
-#home .wide-line{
+
+#home .wide-line {
   height: 2em;
   color: #fdfdfe;
 }
 
-#home .row div{
+#home .row div {
   text-align: center;
 }
 
-#home .row img{
+#home .row img {
   width: 60%;
 }
 
-#home .row span{
+#home .row span {
   font-size: 1.25em;
 }
+
+/*登录*/
+#login ion-content {
+  background-color: #f6f1ee;
+}
+
+#login .logo {
+  text-align: center;
+}
+
+#login div img {
+  margin: 0 auto;
+  width: 30%;
+  padding-top: 5em;
+}
+
+#login input[type="text"] {
+  padding-left: 6px;
+}
+
+#login .pull-right{
+  padding-top: 1em;
+  width: 20%;
+  float: right;
+}
+
+#login .bar-grey{
+  background-color: #f6f1ee;
+}
+
