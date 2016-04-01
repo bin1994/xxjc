@@ -121,6 +121,11 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
         url: '/change-password',
         templateUrl: 'templates/change-password.html',
       })
+//个人信息
+      .state('my-information', {
+        url: '/my-information',
+        templateUrl: 'templates/my-information.html',
+      })
 
 
     ;
