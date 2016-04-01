@@ -96,10 +96,30 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
         url: '/rebate-rule',
         templateUrl: 'templates/rebate-rule.html',
       })
-      //库存查询
+      //库存查询（暂不做）
       .state('stock-search', {
         url: '/stock-search',
         templateUrl: 'templates/stock-search.html',
+      })
+      //我的订单
+      .state('my-order', {
+        url: '/my-order',
+        templateUrl: 'templates/my-order.html',
+      })
+      //我的消息
+      .state('my-msg', {
+        url: '/my-msg',
+        templateUrl: 'templates/my-msg.html',
+      })
+      //我的返利
+      .state('my-rebate', {
+        url: '/my-rebate',
+        templateUrl: 'templates/my-rebate.html',
+      })
+      //密码修改
+      .state('change-password', {
+        url: '/change-password',
+        templateUrl: 'templates/change-password.html',
       })
 
 
