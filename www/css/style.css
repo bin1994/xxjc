@@ -92,7 +92,12 @@
   background-color: #f6f1ee;
 }
 
+/*我的订单*/
 #my-order .weui_media_box.weui_media_appmsg{
   top: 50px;
 }
 
+/*修改密码*/
+#change-password .weui_label{
+  width: 4em;
+}
