@@ -63,6 +63,16 @@
   font-size: 1.25em;
 }
 
+#home .weui_toast_content{
+  padding-top: 1em;
+}
+
+#home .weui_toast{
+  border-radius: 27px;
+  top: 50%;
+  min-height: 3.6em;
+}
+
 /*登录*/
 #login ion-content {
   background-color: #f6f1ee;

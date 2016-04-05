@@ -13,6 +13,8 @@
     <file url="file://$PROJECT_DIR$/www/js/account/account.list.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/www/js/app.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/www/js/controllers.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/js/home/home.ctrl.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/js/home/home.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/www/js/services.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/www/lib/ionic/scss/_reset.scss" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/www/lib/ionic/version.json" charset="UTF-8" />

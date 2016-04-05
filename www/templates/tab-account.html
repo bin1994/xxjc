@@ -50,11 +50,11 @@
     </div>
 
     <!--退出登录确认弹窗-->
-    <div class="weui_dialog_confirm" ng-if="dialogStatus==1" ng-click="hideDialog()">
+    <div class="weui_dialog_confirm" ng-if="dialogStatus" ng-click="hideDialog()">
       <div class="weui_mask"></div>
       <div class="weui_dialog">
-        <div class="weui_dialog_hd"><strong class="weui_dialog_title">提示</strong></div>
-        <div class="weui_dialog_bd">确定退出？</div>
+        <div class="weui_dialog_hd"><strong class="weui_dialog_title">退出登录</strong></div>
+        <div class="weui_dialog_bd">确认退出当前账户</div>
         <div class="weui_dialog_ft">
           <a href="#" class="weui_btn_dialog default">取消</a>
           <a ui-sref="login" class="weui_btn_dialog primary">确定</a>
