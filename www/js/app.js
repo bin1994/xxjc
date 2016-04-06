@@ -50,7 +50,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
           }
         }
       })
-      //公告
+      //公告（默认显示总代理公告）
       .state('tab.notice', {
         url: '/notice',
         views: {
@@ -58,6 +58,11 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
             templateUrl: 'templates/tab-notice.html',
           }
         }
+      })
+      //企业公告（通过企业公告标签跳转）
+      .state('notice-company', {
+        url: '/notice-company',
+        templateUrl: 'templates/notice-company.html',
       })
 
       .state('tab.chat-detail', {
@@ -100,12 +105,27 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
         url: '/stock-search',
         templateUrl: 'templates/stock-search.html',
       })
-      //我的订单
+      //我的订单（默认状态已收货）
       .state('my-order', {
         url: '/my-order',
         templateUrl: 'templates/my-order.html',
         controller: 'OrderListCtrl'
       })
+      //我的订单-待收货（通过标签跳转）
+      .state('order-wait-receipt', {
+        url: '/order-wait-receipt',
+        templateUrl: 'templates/order-wait-receipt.html',
+        controller: 'OrderListCtrl'
+      })
+      //我的订单-待发货（通过标签跳转）
+      .state('order-wait-transport', {
+        url: '/order-wait-transport',
+        templateUrl: 'templates/order-wait-transport.html',
+        controller: 'OrderListCtrl'
+      })
+
+
+
       //我的消息
       .state('my-msg', {
         url: '/my-msg',

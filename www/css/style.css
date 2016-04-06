@@ -130,3 +130,7 @@
 #notice .tabs{
   top: 0;
 }
+
+#notice .tab-item.active{
+  color: #ef473a;
+}
