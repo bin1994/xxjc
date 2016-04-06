@@ -11,6 +11,7 @@
     <file url="file://$PROJECT_DIR$/www/css/style.css" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/www/js/account/account.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/www/js/account/account.list.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/js/account/account.password.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/www/js/app.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/www/js/controllers.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/www/js/home/home.Ctrl.js" charset="UTF-8" />

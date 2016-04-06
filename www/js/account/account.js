@@ -4,6 +4,6 @@
 'use strict';
 (function () {
 
-  angular.module('account', ['account.list']);
+  angular.module('account', ['account.list','account.password']);
 
 })();

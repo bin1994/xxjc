@@ -109,6 +109,10 @@
   top: 50px;
 }
 
+#my-order .tabs{
+  top: 0;
+}
+
 /*修改密码*/
 #change-password .weui_label{
   width: 4em;
@@ -118,3 +122,11 @@
   height: 3em;
 }
 
+/*公告*/
+#notice .label-top div{
+  font-size: 15px;
+}
+
+#notice .tabs{
+  top: 0;
+}

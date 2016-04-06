@@ -120,6 +120,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
       .state('change-password', {
         url: '/change-password',
         templateUrl: 'templates/change-password.html',
+        controller:'AccountPasswordCtrl'
       })
       //个人信息
       .state('my-information', {
