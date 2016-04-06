@@ -56,7 +56,6 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
         views: {
           'tab-chats': {
             templateUrl: 'templates/tab-notice.html',
-            controller: 'NoticeCtrl'
           }
         }
       })
@@ -105,6 +104,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
       .state('my-order', {
         url: '/my-order',
         templateUrl: 'templates/my-order.html',
+        controller: 'OrderListCtrl'
       })
       //我的消息
       .state('my-msg', {
@@ -121,7 +121,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
         url: '/change-password',
         templateUrl: 'templates/change-password.html',
       })
-//个人信息
+      //个人信息
       .state('my-information', {
         url: '/my-information',
         templateUrl: 'templates/my-information.html',

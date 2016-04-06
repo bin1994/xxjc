@@ -4,6 +4,6 @@
 'use strict';
 (function () {
 
-  angular.module('order', ['order.add']);
+  angular.module('order', ['order.add','order.list']);
 
 })();

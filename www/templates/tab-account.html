@@ -14,38 +14,61 @@
         <span class="name">bin0001</span>
       </div>
     </div>
-    <!--我的管理列表-->
-    <div class="list">
-      <a class="item item-icon-right" ui-sref="my-order" ng-click="go('#')">
-        <img src="img/account/order.png"/>
-        &nbsp;我的订单
-        <i class="icon ion-ios-arrow-right i"></i>
+
+    <!--我的管理列表-微信样式-->
+    <div class="weui_cells weui_cells_access">
+      <a class="weui_cell" ui-sref="my-order">
+        <div class="weui_cell_hd">
+          <img src="img/account/order.png" alt="icon"/>
+        </div>
+        <div class="weui_cell_bd weui_cell_primary">
+          <p>我的订单</p>
+        </div>
+        <div class="weui_cell_ft"></div>
       </a>
 
-      <a class="item item-icon-right" ui-sref="my-msg" ng-click="go('#')">
-        <img src="img/account/message.png"/>
-        &nbsp;我的消息
-        <i class="icon ion-ios-arrow-right i"></i>
+      <a class="weui_cell" ui-sref="my-msg">
+        <div class="weui_cell_hd">
+          <img src="img/account/message.png" alt="icon"/>
+        </div>
+        <div class="weui_cell_bd weui_cell_primary">
+          <p>我的消息</p>
+        </div>
+        <div class="weui_cell_ft"></div>
       </a>
 
-      <a class="item item-icon-right" ui-sref="my-rebate" ng-click="go('#')">
-        <img src="img/account/money.png"/>
-        &nbsp;我的返利
-        <i class="icon ion-ios-arrow-right i"></i>
+      <a class="weui_cell" ui-sref="my-rebate">
+        <div class="weui_cell_hd">
+          <img src="img/account/money.png" alt="icon"/>
+        </div>
+        <div class="weui_cell_bd weui_cell_primary">
+          <p>我的返利</p>
+        </div>
+        <div class="weui_cell_ft"></div>
       </a>
 
       <div class="wide-line"></div>
 
-      <a class="item item-icon-right" ui-sref="change-password" ng-click="go('#')">
-        <img src="img/account/lock.png"/>
-        &nbsp;密码修改
-        <i class="icon ion-ios-arrow-right i"></i>
+      <a class="weui_cell" ui-sref="change-password">
+        <div class="weui_cell_hd">
+          <img src="img/account/lock.png" alt="icon"/>
+        </div>
+        <div class="weui_cell_bd weui_cell_primary">
+          <p>密码修改</p>
+        </div>
+        <div class="weui_cell_ft">
+        </div>
       </a>
 
-      <a class="item item-icon-right" ng-click="showDialog()">
-        <img src="img/account/sign_out.png"/>
-        &nbsp;退出账户
-        <i class="icon ion-ios-arrow-right i"></i>
+      <a class="weui_cell" ng-click="showDialog()">
+        <div class="weui_cell_hd">
+          <img src="img/account/sign_out.png" alt="icon"/>
+        </div>
+        <div class="weui_cell_bd weui_cell_primary">
+          <p>退出账户</p>
+        </div>
+        <div class="weui_cell_ft">
+        </div>
       </a>
     </div>
 

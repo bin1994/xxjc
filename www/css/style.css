@@ -1,5 +1,9 @@
 /* Empty. Add your own CSS if you like */
 
+.pull-right {
+  float: right;
+}
+
 /*个人中心*/
 #account ion-content {
   background-color: #ecedec;
@@ -23,22 +27,20 @@
   margin: 0 auto;
 }
 
-#account .icon {
-  color: #cbcbcb;
-}
-
-#account div a img {
-  height: 20px;
-  width: auto;
-  vertical-align: middle
-}
-
-#account a.item {
-  padding: 11px;
+#account div a div img {
+  width: 20px;
+  margin-right: 8px;
+  margin-bottom: 10px;
+  display:block
 }
 
 #account .wide-line {
   height: 16px;
+  background-color: #ecedec;
+}
+
+#account .weui_cells{
+  margin-top: 6px;
 }
 
 /*主页*/
@@ -111,3 +113,8 @@
 #change-password .weui_label{
   width: 4em;
 }
+
+#change-password .wide-line{
+  height: 3em;
+}
+
