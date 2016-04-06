@@ -134,3 +134,25 @@
 #notice .tab-item.active{
   color: #ef473a;
 }
+
+#my-rebate .item-select select{
+  font-size: 15px;
+}
+
+#my-rebate .portrait{
+  text-align: center;
+}
+
+#my-rebate .portrait img{
+  padding-top: 2em;
+  margin: 0 auto;
+  width: 30%;
+}
+
+#my-rebate .text-center span{
+  font-size: 15px;
+}
+
+#my-rebate .text-center span span{
+  color: red;
+}
