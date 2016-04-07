@@ -8,19 +8,48 @@
     </div>
   </ion-nav-bar>
   <ion-content>
-    <div class="weui_search_bar">
-      <form class="weui_search_outer" action="#">
-        <div class="weui_search_inner">
-          <i class="weui_icon_search"></i>
-          <input type="search" class="weui_search_input" id="weui_search_input" placeholder="搜索" required/>
-          <a href="javascript:" class="weui_icon_clear"></a>
+    <div class="page">
+      <div class="bd">
+        <!--<a href="javascript:;" class="weui_btn weui_btn_primary">点击展现searchBar</a>-->
+        <div ng-class="['weui_search_bar',focusing]">
+          <form class="weui_search_outer">
+            <div class="weui_search_inner">
+              <i class="weui_icon_search"></i>
+              <input type="search" class="weui_search_input" placeholder="搜索" id="searchInput" ng-model="searchInput"
+                     ng-keyup=" searchKeyupEvent()" ng-focus="searchFocusEvent()" ng-blur="searchBlurEvent()"/>
+              <!--<a href="javascript:" class="weui_icon_clear" id="search_clear"></a>-->
+            </div>
+            <label class="weui_search_text" set-focus ng-if="searchText"
+                   ng-click="searchClickEvent()">
+              <i class="weui_icon_search"></i>
+              <span>搜索</span>
+            </label>
+          </form>
+          <a href="javascript:" class="weui_search_cancel" ng-click="searchCancel()">取消</a>
         </div>
-        <label for="weui_search_input" class="weui_search_text">
-          <i class="weui_icon_search"></i>
-          <span>搜索</span>
-        </label>
-      </form>
-      <a href="javascript:" class="weui_search_cancel">取消</a>
+        <div class="weui_cells weui_cells_access search_show" ng-if="isSearchShow">
+          <div class="weui_cell">
+            <div class="weui_cell_bd weui_cell_primary">
+              <p>实时搜索文本</p>
+            </div>
+          </div>
+          <div class="weui_cell">
+            <div class="weui_cell_bd weui_cell_primary">
+              <p>实时搜索文本</p>
+            </div>
+          </div>
+          <div class="weui_cell">
+            <div class="weui_cell_bd weui_cell_primary">
+              <p>实时搜索文本</p>
+            </div>
+          </div>
+          <div class="weui_cell">
+            <div class="weui_cell_bd weui_cell_primary">
+              <p>实时搜索文本</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
 

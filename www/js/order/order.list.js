@@ -14,12 +14,10 @@
   function OrderListCtrl($scope) {
     $scope.init = init;
 
-
     init();
 
     function init() {
     }
-
 
   }
 })();
